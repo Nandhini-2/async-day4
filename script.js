@@ -43,8 +43,8 @@ var input_file = input_create("input","type","file","id","mfile");
 var break_add = break_create();
 
 
-document.body.append(f_name,f_name_break,input_fname,
-    m_name,m_name_break,input_mname,
-    l_name,l_name_break,input_lname,
-    pwd,pwd_break,input_pwd,
+document.body.append(f_name,f_name_break,input_fname,f_name_break,
+    m_name,m_name_break,input_mname,m_name_break,
+    l_name,l_name_break,input_lname,l_name_break,
+    pwd,pwd_break,input_pwd,pwd_break,
     file,file_break,input_file)
